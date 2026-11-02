@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --color-accent: oklch(0.55 0.22 275);
+  --color-accent-hover: oklch(0.48 0.22 275);
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
